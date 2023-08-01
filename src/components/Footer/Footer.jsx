@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         <ul className="footer-ul-debajo">
-          <li>Legal</li>
+          <li>Desarrollado:por santiago Correa Vanegas</li>
           <li>Centro de Privacidad</li>
           <li>Política de privacidad</li>
           <li>Configuración de cookies</li>

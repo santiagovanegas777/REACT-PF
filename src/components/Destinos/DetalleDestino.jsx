@@ -13,7 +13,7 @@ const DetalleDestino = () => {
   const getDataAPI = async ( ) => {
 
     // const findDestination = await axios.get(`https://api-node-viajes.vercel.app/destinations/id/${idDestino}`);
-    const response = await fetch(`https://api-node-viajes.vercel.app/destinations/id/${idDestino}`);
+    const response = await fetch(`https://api-pf-iota.vercel.app/destinations/id/${idDestino}`);
     const findDestination = await response.json();
 
     console.log(findDestination[0]);

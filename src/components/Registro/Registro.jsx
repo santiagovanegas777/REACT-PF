@@ -20,7 +20,7 @@ const Registro = () => {
   const navigate = useNavigate();
   const postDataUsersAPI = async () => {
     console.log(formData)
-    const response = await fetch("https://api-node-viajes.vercel.app/users/register", {
+    const response = await fetch("https://api-pf-iota.vercel.app/users/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

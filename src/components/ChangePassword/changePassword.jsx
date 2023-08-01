@@ -19,7 +19,7 @@ const ChangePassword = () => {
       const updateDataUsersAPI = async () => {
         console.log(sessionToken);
         //console.log(user);
-        const response = await fetch(`https://api-node-viajes.vercel.app/users/update/${user._id}`, {
+        const response = await fetch(`https://api-pf-iota.vercel.app/users/update/${user._id}`, {
           method: "PUT",
           headers: {
             Accept: 'application/json',

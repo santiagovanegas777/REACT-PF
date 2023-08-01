@@ -6,7 +6,7 @@ const Actividades = () => {
   const [activities, setActivities] = useState([]);
 
   const getDataAPI = async ()=>{
-      const response = await fetch('https://api-node-viajes.vercel.app/activities');
+      const response = await fetch('https://api-pf-iota.vercel.app/activities');
       const res = await response.json();
       setActivities(res);
   }

@@ -39,7 +39,7 @@ const BtnLoQuiero = ({ tipoProducto, idProducto }) => {
     const deleteProduct = async () =>{
       console.log(sessionToken);
       console.log(user);
-      const response = await fetch(`https://api-node-viajes.vercel.app/${tipoProducto}/${idProducto}`, {
+      const response = await fetch(`https://api-pf-iota.vercel.app/${tipoProducto}/${idProducto}`, {
         method: "DELETE",
         headers: {
           Accept: 'application/json',

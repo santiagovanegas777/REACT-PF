@@ -12,13 +12,13 @@ const ResumenCompra = () => {
     let totalPagar = 0;
 //----------------------------------------------------------------------------------------------------------
 const getDataAPI_destinations = async (idDestino) => {
-  const response = await fetch(`https://api-node-viajes.vercel.app/destinations/id/${idDestino}`);
+  const response = await fetch(`https://api-pf-iota.vercel.app/destinations/id/${idDestino}`);
   const findDestination = await response.json();
   return findDestination[0];
 };
 //----------------------------------------------------------------------------------------------------------
 const getDataAPI_activities = async (idActividad) => {
-  const response = await fetch(`https://api-node-viajes.vercel.app/activities/id/${idActividad}`);
+  const response = await fetch(`https://api-pf-iota.vercel.app/activities/id/${idActividad}`);
   const findActivity = await response.json();
   return findActivity[0];
 };

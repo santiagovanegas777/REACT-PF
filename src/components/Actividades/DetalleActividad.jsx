@@ -12,7 +12,7 @@ const DetalleActividad = () => {
     const getDataAPI = async ( ) => {
   
       // const findDestination = await axios.get(`https://api-node-viajes.vercel.app/destinations/id/${idactividad}`);
-      const response = await fetch(`https://api-node-viajes.vercel.app/activities/id/${idActividad}`);
+      const response = await fetch(`https://api-pf-iota.vercel.app/activities/id/${idActividad}`);
       const findActivity = await response.json();
   
       console.log(findActivity[0]);

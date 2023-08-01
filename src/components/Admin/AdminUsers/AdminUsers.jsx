@@ -10,7 +10,7 @@ function AdminUsers() {
 
   const fetchUsers = async () => {
     try {
-      const response = await fetch('https://api-node-viajes.vercel.app');
+      const response = await fetch('https://api-pf-iota.vercel.app');
       const data = await response.json();
       setUsers(data);
     } catch (error) {
