@@ -1,0 +1,65 @@
+.destino-imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  img:first-child {
+    height: 50vh;
+  }
+
+  .small-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+
+    img {
+      width: 30%;
+    }
+  }
+}
+
+.destino-info {
+  padding: 16px;
+  position: relative;
+  left: 50%;
+  translate: -50% 0;
+
+  &-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .destino-p1 {
+    font-size: 1.2em;
+    margin: 1% 0;
+  }
+
+  .destino-p2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    color: #ff0000;
+  }
+}
+
+.BtnLoQuiero-btn {
+  width: 15%;
+  color: #fff;
+    font-size: 1em;
+    margin-top: 5%;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+
+  &:hover {
+    cursor: pointer;
+    background: linear-gradient(220.55deg,#0017E4 0%, #3793FF 100%);
+  }
+}

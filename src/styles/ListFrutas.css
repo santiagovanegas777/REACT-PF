@@ -1,0 +1,49 @@
+.destino{
+    padding-inline-start: 0;
+    display: flex;
+    padding: 40px 0 40px 0;
+    margin: 20px;
+    align-items: center;
+
+    /* grid-gap: 40px; */
+    background-color: #aaa;
+}
+
+.destino-name{
+    margin: 0;
+    line-height: 3;
+    font-family: 'Lato', sans-serif;
+    -webkit-text-stroke: 2px #444;
+    text-align: center;
+    font-size: 50px;
+    color: #ffcc01;
+}
+
+.destino-image{
+    height: 300px;
+    transition: all 0.8s; 
+    margin:10px;
+  
+}
+
+.destino-imageContainer{
+    justify-content: center;
+    width: 50%;
+}
+.destino-info{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+/*
+.destino-p1{
+
+}
+
+.destino-p2{
+    
+}
+
+.destino-p3{
+    
+} */

@@ -1,0 +1,12 @@
+.BtnLoQuiero-div{
+    text-align: center;
+    /* background-color: red; */
+    /* font-size: x-large; */
+}
+
+.BtnLoQuiero-btn{
+    /* text-align: center; */
+    background-color: red;
+    font-size: x-large;
+    padding: 20px;
+}

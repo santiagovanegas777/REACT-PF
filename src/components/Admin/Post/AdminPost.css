@@ -1,0 +1,28 @@
+.AdminPost {
+  padding: 150px;
+  text-align: center;
+}
+
+.AddPost, .DeletePost {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.goBackButton {
+  font-family: monospace;
+  padding: 20px 40px; /* Haciendo el botón más grande */
+  font-size: 24px; /* Incrementando el tamaño del texto */
+  color: #ffffff; /* Cambiando el color del texto a blanco */
+  background-color: #ff6347; /* Un color de fondo llamativo */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  margin-top: 50px;
+  display: inline-block; /* Para permitir el padding */
+}
+
+.goBackButton:hover {
+  background-color: #ffa500; /* Un color de fondo aún más brillante al pasar el cursor */
+}

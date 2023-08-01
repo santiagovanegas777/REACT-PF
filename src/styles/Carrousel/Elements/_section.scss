@@ -1,0 +1,45 @@
+
+
+.App-header {
+    background-color: #282c34;
+    min-height: 200vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+article.destination_card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination_card img {
+    object-fit: contain;
+    min-width: 100%;
+    height: 100%;
+
+    @include small{
+        object-fit: cover;
+    }
+    filter: brightness(50%);
+
+    
+}
+
+div.carrousel {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+.section_carrousel {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    gap: 20%;
+}

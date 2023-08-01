@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div.background_login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://la.network/wp-content/uploads/2020/02/PARIS.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+aside.login {
+  position: absolute;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  background-color: rgb(32, 31, 31);
+  z-index: 2;
+}
+@media (max-width: 376px) {
+  aside.login {
+    width: 100%;
+  }
+}
+
+aside.login-email {
+  z-index: 5;
+  translate: -100% 0;
+  transition: 0.5s;
+}
+
+aside.visible {
+  translate: 0;
+}
+
+aside.login > h2 {
+  width: 50%;
+  color: #fff;
+  font-size: 2.2em;
+  margin-right: 15%;
+  margin-top: 30%;
+}
+@media (max-width: 376px) {
+  aside.login > h2 {
+    margin-right: -29%;
+  }
+}
+
+aside.login > p {
+  width: 50%;
+  color: #666565;
+  margin-right: 15%;
+}
+@media (max-width: 376px) {
+  aside.login > p {
+    margin-right: -27%;
+    margin-top: 11px;
+  }
+}
+
+.input-box {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  margin-right: 15%;
+  margin-top: 20%;
+}
+
+.name {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  translate: 0 -50%;
+  width: 15vw;
+  height: 5vh;
+  background: transparent;
+  border-bottom: 2px solid #888888;
+  padding-left: 10px;
+  font-size: 1.2em;
+  color: white;
+  transition: 0.5s;
+}
+@media (max-width: 376px) {
+  .name {
+    width: 152px;
+    margin-left: 55px;
+  }
+}
+
+.name:focus {
+  border-bottom: 2px solid #447ffd;
+  outline: none;
+}
+
+.div-label {
+  position: absolute;
+  font-size: 1em;
+  top: 10%;
+  left: 0;
+  padding: 2%;
+  translate: 10% -50%;
+  color: #888888;
+  transition: 0.6s;
+  white-space: nowrap;
+}
+@media (max-width: 376px) {
+  .div-label {
+    width: 45px;
+    margin-top: -4px;
+    margin-left: 88px;
+  }
+}
+
+.input-box > :is(.name:focus, .has-value) ~ .div-label {
+  translate: 10% -41px;
+  background: inherit;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+button.button {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 20%;
+  margin-right: 15%;
+  border-radius: 4px;
+  text-align: left;
+  font-weight: 700;
+  background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+}
+
+button.button:hover {
+  cursor: pointer;
+  background: linear-gradient(220.55deg, #0017E4 0%, #3793FF 100%);
+}
+
+button.login-button {
+  width: 15vw;
+  height: 7%;
+  padding: 0 6%;
+}
+@media (max-width: 376px) {
+  button.login-button {
+    width: 34%;
+    margin-left: 76px;
+    margin-top: 59px;
+  }
+}
+
+button.back {
+  background: transparent;
+  align-self: flex-start;
+  margin: 5%;
+  font-size: 2em;
+}
+
+button.back {
+  color: #888888;
+  transition: 0.5s;
+}
+
+button.back:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+button.next-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 8vw;
+  height: 8%;
+}
+@media (max-width: 376px) {
+  button.next-button {
+    width: 129px;
+    margin-left: 70px;
+    margin-top: 37px;
+  }
+}
+
+div.error {
+  width: 70%;
+  font-size: 1em;
+  color: red;
+  margin-top: 15%;
+}
+
+.register_login {
+  width: 50%;
+  height: 10%;
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+}
+@media (max-width: 376px) {
+  .register_login {
+    width: 159px;
+    margin-left: 65px;
+  }
+}
+
+.register_login a {
+  text-decoration: none;
+  color: #888888;
+  transition: 0.3s;
+}
+
+.register_login a:hover {
+  color: #fff;
+}
+
+.back_home {
+  margin-top: 5%;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+div.AgregarPost {
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  div.AgregarPost h2 {
+    margin-bottom: 20px;
+  }
+  
+  div.AgregarPost form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div.AgregarPost input, div.AgregarPost textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  div.AgregarPost button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  div.AgregarPost button:hover {
+    background-color: #0056b3;
+  }

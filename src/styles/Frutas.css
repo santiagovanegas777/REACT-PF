@@ -1,0 +1,10 @@
+.frutas-div{
+
+    margin: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }

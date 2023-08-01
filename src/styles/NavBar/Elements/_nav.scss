@@ -1,0 +1,43 @@
+.header_nav{
+    width: 80%;
+    height: 100%;
+    & > .nav_menu {
+        display: flex;
+        width: 70%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 18%;
+        gap: 12%;
+        @include small{
+            gap: 20%;
+            margin-left: 12%;
+        }
+
+        & > li {
+            font-size: 0.6em;
+            width: 20%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include small{
+                font-size: 1em;
+            }
+            & > a {
+                text-decoration: none;
+                padding: 40% 20% 40% 20%;
+                color: black;
+                transition: 0.3s;
+                &:hover{
+                    background-color:#8be9f9 ;
+                    color: white;
+                }
+            }
+
+       
+          }
+    }
+    
+
+}
