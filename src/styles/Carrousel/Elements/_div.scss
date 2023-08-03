@@ -18,4 +18,8 @@
     & .destination_hotel{
         align-self: center;
     }
+
+    @include mobile{
+        right: 85%;
+    }
   }

@@ -162,6 +162,15 @@ article.destination_card {
        object-fit: cover;
   }
 }
+@media only screen and (min-width: 320px) {
+  .destination_card img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    min-width: 100%;
+    height: 54%;
+    filter: brightness(50%);
+  }
+}
 
 div.carrousel {
   width: 100%;
@@ -198,4 +207,9 @@ div.carrousel {
 }
 .destination_information .destination_hotel {
   align-self: center;
+}
+@media only screen and (min-width: 320px) {
+  .destination_information {
+    right: 85%;
+  }
 }/*# sourceMappingURL=main.css.map */
