@@ -153,6 +153,14 @@ table {
     translate: -50% 0;
   }
 }
+@media only screen and (min-width: 414px) {
+  .div_header {
+    width: 72%;
+    height: 10vh;
+    left: 50%;
+    translate: -65% 0;
+  }
+}
 .div_header > div.logo_container {
   width: 15%;
   height: 100%;
