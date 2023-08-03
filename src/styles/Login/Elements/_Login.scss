@@ -27,7 +27,7 @@ aside.login{
     border: 3px solid black;
     background-color: rgb(32, 31, 31);
     z-index: 2;
-    @media(max-width:376px){
+    @media(max-width:320px){
         width: 100%;
     }
 
@@ -49,8 +49,9 @@ aside.login > h2{
     font-size: 2.2em;
     margin-right: 15%;
     margin-top: 30%;
-    @media(max-width:376px){
-        margin-right: -29%;
+    @media(max-width:320px){
+        margin-right: -23%;
+        margin-top: 30%;
     }
 }
 
@@ -58,9 +59,9 @@ aside.login > p{
     width: 50%;
     color: #666565;
     margin-right: 15%;
-    @media(max-width:376px){
-        margin-right: -27%;
-        margin-top: 11px;
+    @media(max-width:320px){
+        margin-right: -19%;
+        margin-top: 40px;
     }
 }
 
@@ -85,9 +86,9 @@ aside.login > p{
     font-size: 1.2em;
     color: white;
     transition: 0.5s;
-    @media(max-width:376px){
-        width: 152px;
-        margin-left: 55px;
+    @media(max-width:320px){
+        width: 153%;
+        margin-left: -13%;
     }
 
 }
@@ -107,10 +108,10 @@ aside.login > p{
     color: #888888;
     transition: 0.6s;
     white-space: nowrap;
-    @media(max-width: 376px){
-        width: 45px;
-        margin-top: -4px;
-        margin-left: 88px
+    @media(max-width: 320px){
+        width: 40px;
+        margin-top: -9px;
+        margin-left: 71px;
     }
 }
 
@@ -141,10 +142,11 @@ button.login-button{
     width: 15vw;
     height: 7%;
     padding: 0 6%;
-    @media(max-width:376px){
-        width: 34%;
-        margin-left: 76px;
-        margin-top: 59px;
+    @media(max-width:320px){
+        width: 40%;
+        margin-left: 66px;
+        margin-top: 30px;
+        text-align: center;
     }
 }
 button.back{
@@ -171,10 +173,10 @@ button.next-button{
     justify-content: space-around;
     width: 8vw;
     height: 8%;
-    @media(max-width: 376px){
-        width: 129px;
-        margin-left: 70px;
-        margin-top: 37px;
+    @media(max-width: 320px){
+        width: 169px;
+        margin-left: 50px;
+        margin-top: 49px;
     }
 }
 
@@ -192,9 +194,9 @@ div.error{
     display: flex;
     flex-direction: column;
     gap: 15%;
-    @media(max-width: 376px){
-        width: 159px;
-        margin-left: 65px;
+    @media(max-width: 320px){
+        width: 153px;
+        margin-left: 47px;
     }
 }
 
